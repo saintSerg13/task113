@@ -27,6 +27,10 @@ public class User {
         this.lastName = lastName;
         this.age = age;
     }
+    @Override
+    public  String toString(){
+        return "Юзер c именем " + getName() + " и фамилией "+ getLastName() + " прожил " + getAge()+" лет";
+    }
 
     public Long getId() {
         return id;
