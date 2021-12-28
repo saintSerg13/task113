@@ -26,10 +26,11 @@ public class Main {
         userServiceImpl.saveUser(userNastya.getName(), userNastya.getLastName(), userNastya.getAge());
         userServiceImpl.saveUser(userDima.getName(), userDima.getLastName(), userDima.getAge());
 
-        userServiceImpl.removeUserById(2);
+        userServiceImpl.removeUserById(4);
         userServiceImpl.getAllUsers();
         userServiceImpl.cleanUsersTable();
         userServiceImpl.dropUsersTable();
+
 
     }
 }
